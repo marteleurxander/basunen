@@ -31,40 +31,27 @@
 
     .content {
       padding: 40px;
+      max-width: 900px;
+      margin: auto;
     }
 
     .intro {
-      background-color: #fff8dc; /* light cream */
-      padding: 20px;
-      margin-bottom: 30px;
       font-style: italic;
-      border-left: 4px solid #FFD700;
+      margin-bottom: 40px; /* space between quote and article */
     }
 
-    /* Article previews */
-    .article-preview {
-      border-bottom: 1px solid #ddd;
-      padding-bottom: 20px;
-      margin-bottom: 20px;
-      display: flex;
-      gap: 20px;
+    .article {
+      line-height: 1.7;
     }
 
-    .article-preview img {
-      width: 200px;
-      height: 120px;
-      object-fit: cover;
-      border-radius: 4px;
+    .article h2 {
+      margin-top: 0;
     }
 
-    .article-info h3 {
-      margin: 0;
-    }
-
-    .article-info .meta {
+    .article .meta {
       font-size: 0.9em;
       color: #555;
-      margin-bottom: 10px;
+      margin-bottom: 20px;
     }
   </style>
 </head>
@@ -78,29 +65,22 @@
       <a href="ombasunen.html">Om basunen</a>
       <a href="kontakter.html">Kontakter</a>
       <a href="DuKanHjälpa.html">Du kan hjälpa</a>
-      <a href="källor.html">källor</a>
+      <a href="källor.html">Källor</a>
     </div>
   </div>
 
   <div class="content">
-    <h1>Välkommen till Basunen</h1>
-
     <div class="intro">
       <p>"I tro föll Jerikos murar."</p>
     </div>
-    
-    <!-- First article preview -->
-    <div class="article-preview">
-      <img src="article1.jpg" alt="Article image">
-      <div class="article-info">
-        <h3><a href="first-article.html">Första artikeln: Solidaritet i handling</a></h3>
-        <div class="meta">Av Anna Svensson | 16 mars 2026</div>
-        <p>Denna artikel introducerar Basunens arbete med solidaritet och hjälp till behövande i Sverige. Läs vidare för exempel och inspiration.</p>
-      </div>
-    </div>
 
-    <!-- You can duplicate the above div for more articles -->
-    
+    <div class="article">
+      <h2>Första artikeln: Solidaritet i handling</h2>
+      <div class="meta">Av Anna Svensson | 16 mars 2026</div>
+      <p>Välkommen till Basunen. Denna artikel fungerar som vårt första manifest och introducerar arbetet med solidaritet och hjälp till behövande i Sverige. Vi tror på handling framför ord och vill inspirera alla att engagera sig i konkret stöd för de utsatta.</p>
+      <p>Vi är övertygade om att förändring börjar lokalt. Genom små, sammanlänkade handlingar kan vi tillsammans bygga ett samhälle där människor inte lämnas ensamma i sina behov. Basunen är ett uttryck för denna tro på kollektivt ansvar och medmänsklighet.</p>
+      <p>Varje artikel vi publicerar här kommer att reflektera detta ideal och fungera som exempel på hur tro kan omsättas i handling. Vi bjuder in alla som delar denna vision att bidra med idéer, berättelser och konkreta initiativ.</p>
+    </div>
   </div>
 
 </body>
