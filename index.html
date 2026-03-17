@@ -37,9 +37,21 @@
       margin: auto;
     }
 
+    /* Bible quote box */
     .intro {
+      background-color: rgba(255, 215, 0, 0.2); /* subtle transparent yellow */
+      padding: 20px;
+      margin-bottom: 20px; /* space before line */
       font-style: italic;
-      margin-bottom: 40px; /* space between quote and article */
+      border-left: 4px solid #FFD700;
+      border-radius: 4px;
+    }
+
+    /* Horizontal line between quote and article */
+    .separator {
+      border: none;
+      border-top: 2px solid #FFD700;
+      margin: 30px 0;
     }
 
     .article {
@@ -75,6 +87,9 @@
     <div class="intro">
       <p>"I tro föll Jerikos murar."</p>
     </div>
+
+    <!-- Line separator -->
+    <hr class="separator">
 
     <div class="article">
       <h2>Första artikeln: Solidaritet i handling</h2>
